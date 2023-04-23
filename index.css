@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* To make everything center inside the body*/
+    font-family: monospace;
+    /* overflow: hidden; */
+}
+
+.container {
+    width: 240px;
+    height: 275px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: rgb(51, 2, 97);
+    color: white;
+    padding: 10px;
+    /* margin-right: 90px; */
+    text-align: right;
+    font-size: 30px; 
+    box-sizing: border-box;
+    border-top-left-radius: 7px; /* it curves the top edges of the input*/
+    border-top-right-radius: 7px;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(51, 2, 97);
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+#operator{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
